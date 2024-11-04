@@ -1,82 +1,64 @@
 {
-    "images": [
-        {
-            "imgPath": "img/places/australia.jpg",
-            "imgLocation": "Australia",
-            "description": "Loch Ard Gorge",
-            "date": "01/01/2016"
-        },
-        {
-            "imgPath": "img/places/austria.jpg",
-            "imgLocation": "Austria",
-            "description": "Austrian chapel",
-            "date": "01/02/2016"
-        },
-        {
-            "imgPath": "img/places/france.jpg",
-            "imgLocation": "Paris",
-            "description": "Eiffel Tower",
-            "date": "01/03/2016"
-        },
-        {
-            "imgPath": "img/places/greece.jpg",
-            "imgLocation": "Greece",
-            "description": "Greek coastline",
-            "date": "01/04/2016"
-        },
-        {
-            "imgPath": "img/places/hungary.jpg",
-            "imgLocation": "Hungary",
-            "description": "Budapest skyline",
-            "date": "01/05/2016"
-        },
-        {
-            "imgPath": "img/places/india.jpg",
-            "imgLocation": "India",
-            "description": "Taj Mahal",
-            "date": "01/06/2016"
-        },
-        {
-            "imgPath": "img/places/italy.jpg",
-            "imgLocation": "Italy",
-            "description": "Venice",
-            "date": "01/07/2016"
-        },
-        {
-            "imgPath": "img/places/japan.jpg",
-            "imgLocation": "Japan",
-            "description": "Hirosaki Castle",
-            "date": "01/08/2016"
-        },
-        {
-            "imgPath": "img/places/korea.jpg",
-            "imgLocation": "South Korea",
-            "description": "Seoul",
-            "date": "01/09/2016"
-        },
-        {
-            "imgPath": "img/places/norway.jpg",
-            "imgLocation": "Norway",
-            "description": "Countryside mountains",
-            "date": "01/10/2016"
-        },
-        {
-            "imgPath": "img/places/switzerland.jpg",
-            "imgLocation": "Switzerland",
-            "description": "Lake castle",
-            "date": "01/11/2016"
-        },
-        {
-            "imgPath": "img/places/thailand.jpg",
-            "imgLocation": "Thailand",
-            "description": "Beachline",
-            "date": "01/12/2016"
-        },
-        {
-            "imgPath": "img/places/turkey.jpg",
-            "imgLocation": "Turkey",
-            "description": "Istanbul",
-            "date": "01/13/2016"
-        }
-  ]
+   "images": [
+    {
+        "imgPath": "img/animals/bird.jpg",
+        "imgName": "Bird",
+        "description": "A colorful bird sitting on a branch",
+        "location": "Rainforest"
+    },
+    {
+        "imgPath": "img/animals/cheetah.jpg",
+        "imgName": "Cheetah",
+        "description": "A cheetah resting in the grasslands",
+        "location": "African Savanna"
+    },
+    {
+        "imgPath": "img/animals/elephant.jpg",
+        "imgName": "Elephant",
+        "description": "An elephant walking across a plain",
+        "location": "Africa and Asia"
+    },
+    {
+        "imgPath": "img/animals/frog.jpg",
+        "imgName": "Frog",
+        "description": "A frog sitting on a lily pad",
+        "location": "The Desert"
+    },
+    {
+        "imgPath": "img/animals/giraffe.jpg",
+        "imgName": "Giraffe",
+        "description": "A giraffe looking through treetops",
+        "location": "Kenyan Savanna"
+    },
+    {
+        "imgPath": "img/animals/kangaroo.jpg",
+        "imgName": "Kangaroo",
+        "description": "A kangaroo hopping through the outback",
+        "location": "Australian Outback"
+    },
+    {
+        "imgPath": "img/animals/lion.jpg",
+        "imgName": "Lion",
+        "description": "A lion relaxing in the sun",
+        "location": "Kenya"
+    },
+    {
+        "imgPath": "img/animals/monkey.jpg",
+        "imgName": "Monkey",
+        "description": "A monkey swinging from a tree branch",
+        "location": "Jungle"
+    },
+    {
+        "imgPath": "img/animals/panda.jpg",
+        "imgName": "Panda",
+        "description": "A panda looking for bamboo",
+        "location": "China"
+    },
+    {
+        "imgPath": "img/animals/zebra.jpg",
+        "imgName": "Zebra",
+        "description": "A zebra walking through a grassy field",
+        "location": "South Africa"
+    }
+]
 }
