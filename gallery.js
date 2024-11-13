@@ -5,17 +5,14 @@ const mWaitTime = 5000 // Timer interval in milliseconds
 
 $(document).ready(() => {
   $('.details').hide() // Hide details initially
-
-  // Call a function here to start the timer for the slideshow
-
-  // Select the moreIndicator button and add a click event to:
-  // - toggle the rotation classes (rot90 and rot270)
-  // - slideToggle the visibility of the .details section
-
+  $('.moreIndicator').on('click', function () {
+    $('.moreIndicator').toggleClass('rot270 rot90')
+    $('.details').slideToggle()
+  })
   // Select the "Next Photo" button and add a click event to call showNextPhoto
-
+  $('#nextPhoto').on('click', showNextPhoto)
   // Select the "Previous Photo" button and add a click event to call showPrevPhoto
-
+  $('#prevPhoto').on('click', showPrevPhoto)
   // Call fetchJSON() to load the initial set of images
   fetchJSON()
 })
@@ -24,9 +21,9 @@ $(document).ready(() => {
 function fetchJSON() {
   $.ajax({
     url: mUrl,
-    method: 'GET',
+    dataType: 'json',
     success: function (data) {
-      mImages = data.mImages
+      mImages = data.images
       console.log(mImages)
 
       swapPhoto()
@@ -43,14 +40,25 @@ function fetchJSON() {
 // Function to swap and display the next photo in the slideshow
 function swapPhoto() {
   // Access mImages[mCurrentIndex] to update the image source and details
+  const image = mImages[mCurrentIndex];
   // Update the #photo element's src attribute with the current image's path
+  $('#photo').attr('src', mImages[mCurrentIndex].imgPath);
+  $('.imgName').text(`${mImages[mCurrentIndex].imgName}`);
+  $('.description').text(`${mImages[mCurrentIndex].description}`);
+  $('.location').text(`${mImages[mCurrentIndex].location}`);
+
   // Update the .location, .description, and .date elements with the current image's details
 }
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
 function showNextPhoto() {
+  mCurrentIndex++
   // Increment mCurrentIndex and call swapPhoto()
   // Ensure it loops back to the beginning if mCurrentIndex exceeds array length
+  if (mCurrentIndex === mImages.length) {
+    mCurrentIndex = 0;
+  }
+  swapPhoto()
 }
 
 // Goes to the previous photo, loops to the last photo if mCurrentIndex goes negative
