@@ -6,7 +6,7 @@ const mWaitTime = 5000 // Timer interval in milliseconds
 $(document).ready(() => {
   $('.details').hide() // Hide details initially
   $('.moreIndicator').on('click', function () {
-    $('.moreIndicator').toggleClass('rot270 rot90')
+    $('.moreIndicator').toggleClass('rot270, rot90')
     $('.details').slideToggle()
   })
   // Select the "Next Photo" button and add a click event to call showNextPhoto
@@ -43,9 +43,9 @@ function swapPhoto() {
   const image = mImages[mCurrentIndex];
   // Update the #photo element's src attribute with the current image's path
   $('#photo').attr('src', mImages[mCurrentIndex].imgPath);
-  $('.imgName').text(`${mImages[mCurrentIndex].imgName}`);
-  $('.description').text(`${mImages[mCurrentIndex].description}`);
-  $('.location').text(`${mImages[mCurrentIndex].location}`);
+  $('.imgName').text(`Name: ${mImages[mCurrentIndex].imgName}`);
+  $('.description').text(`Description: ${mImages[mCurrentIndex].description}`);
+  $('.location').text(`Location: ${mImages[mCurrentIndex].location}`);
 
   // Update the .location, .description, and .date elements with the current image's details
 }
@@ -64,7 +64,12 @@ function showNextPhoto() {
 // Goes to the previous photo, loops to the last photo if mCurrentIndex goes negative
 function showPrevPhoto() {
   // Decrement mCurrentIndex and call swapPhoto()
+  mCurrentIndex--
   // Ensure it loops to the end if mCurrentIndex is less than 0
+  if (mCurrentIndex <= 0) {
+    mCurrentIndex = 0;
+  }
+  swapPhoto()
 }
 
 // Starter code for the timer function
