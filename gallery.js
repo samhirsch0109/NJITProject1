@@ -27,6 +27,8 @@ function fetchJSON() {
       console.log(mImages)
 
       swapPhoto()
+      startTimer()
+
     },
     error: function () {
       alert: ('Failed to load')
@@ -66,8 +68,8 @@ function showPrevPhoto() {
   // Decrement mCurrentIndex and call swapPhoto()
   mCurrentIndex--
   // Ensure it loops to the end if mCurrentIndex is less than 0
-  if (mCurrentIndex <= 0) {
-    mCurrentIndex = 0;
+  if (mCurrentIndex < 0) {
+    mCurrentIndex = 9;
   }
   swapPhoto()
 }
@@ -75,6 +77,7 @@ function showPrevPhoto() {
 // Starter code for the timer function
 function startTimer() {
   // Create a timer to automatically call `showNextPhoto()` every mWaitTime milliseconds
+  setInterval(showNextPhoto, mWaitTime);
   // Consider using setInterval to achieve this functionality
   // Hint: Make sure only one timer runs at a time
 }
