@@ -48,9 +48,9 @@ body {
 
 /* Style for the 'More Content' indicator */
 .moreIndicator {
-    height: 40px;
+    height: 50px;
     /* Adjust size for a balanced look */
-    width: 40px;
+    width: 50px;
     cursor: pointer;
     transition: transform 0.3s ease;
     /* Smooth rotation transition */

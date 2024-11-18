@@ -3,62 +3,62 @@
     {
         "imgPath": "img/animals/bird.jpg",
         "imgName": "Bird",
-        "description": "Birds are feathered animals with beaks and wings, known for their ability to fly and diverse appearances.",
-        "location": "From the Rainforest"
+        "description": "Feathered animals with beaks and wings, known for their ability to fly and diverse appearances.",
+        "location": "From Rainforests"
     },
     {
         "imgPath": "img/animals/cheetah.jpg",
         "imgName": "Cheetah",
-        "description": "Cheetahs are fast, slender, spotted big cats known for their incredible speed, reaching up to 60-70 mph in short bursts to catch prey on open plains.",
+        "description": "Fast, spotted big cats known for their incredible speed, reaching up to 60-70 mph to catch prey on open plains.",
         "location": "From the African Savanna"
     },
     {
         "imgPath": "img/animals/elephant.jpg",
         "imgName": "Elephant",
-        "description": "Elephants are large, intelligent mammals with trunks, tusks, and massive bodies, known for their strong social bonds and impressive memory.",
+        "description": "Large, intelligent mammals with trunks, known for their strong social bonds and impressive memory.",
         "location": "From Africa and Asia"
     },
     {
         "imgPath": "img/animals/frog.jpg",
         "imgName": "Frog",
-        "description": "Frogs are small, tailless amphibians with smooth skin, long legs for jumping, and a life cycle that includes both aquatic and terrestrial stages.",
-        "location": "From the Desert"
+        "description": "Small, tailless amphibians with smooth skin, long legs for jumping, and a life cycle that includes both aquatic and terrestrial stages.",
+        "location": "From Rainforests"
     },
     {
         "imgPath": "img/animals/giraffe.jpg",
         "imgName": "Giraffe",
-        "description": "Giraffes are tall mammals with long necks, spotted coats, and long legs, known for browsing treetops in African savannas.",
+        "description": "Tall mammals with long necks, spotted coats, and long legs, known for browsing treetops in African savannas.",
         "location": "From the Savanna"
     },
     {
         "imgPath": "img/animals/kangaroo.jpg",
         "imgName": "Kangaroo",
-        "description": "Kangaroos are large marsupials with powerful hind legs, strong tails, and pouches for carrying their young, known for their unique hopping locomotion across Australia's landscapes.",
+        "description": "Large animals with powerful hind legs, strong tails, known for their unique hopping locomotion across Australia's landscapes.",
         "location": "From the Australian Outback"
     },
     {
         "imgPath": "img/animals/lion.jpg",
         "imgName": "Lion",
-        "description": "Lions are large, social big cats with tawny coats and, in males, a distinctive mane; they are powerful hunters and live in prides on African grasslands.",
-        "location": "From Kenya"
+        "description": "Large, social cats with fur",
+        "location": "From Grasslands"
     },
     {
         "imgPath": "img/animals/monkey.jpg",
         "imgName": "Monkey",
-        "description": "Monkeys are intelligent, agile primates with long tails and dexterous hands, often living in social groups and displaying complex behaviors in forests and tropical regions.",
+        "description": "Intelligent, playful animals that live in trees.",
         "location": "From the Jungle"
     },
     {
         "imgPath": "img/animals/panda.jpg",
         "imgName": "Panda",
-        "description": "Pandas are large, gentle bears with distinctive black-and-white fur, primarily known for their love of bamboo and native habitats in the forests of China.",
-        "location": "From China"
+        "description": "Bears with black-and-white fur. They eat a lot of bamboo and are calm animals.",
+        "location": "From Tropical Rainforests or Mountains"
     },
     {
         "imgPath": "img/animals/zebra.jpg",
         "imgName": "Zebra",
-        "description": "Zebras are striped herbivorous mammals related to horses, known for their unique black-and-white coats and social behavior in herds across African grasslands.",
-        "location": "From South Africa"
+        "description": "Striped mammals related to horses, known for their unique black-and-white coats and social behavior in herds across African grasslands.",
+        "location": "From African Grasslands"
     }
 ]
 }
