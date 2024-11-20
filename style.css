@@ -69,7 +69,7 @@ body {
 
 /* Metadata container styling */
 .details {
-    border: 1px dashed #000000;
+    border: 1px solid #033c92;
     padding: 15px;
     background-color: #f1f0f0;
     /* Light background to distinguish from main area */
